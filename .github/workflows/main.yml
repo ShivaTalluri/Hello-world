@@ -9,5 +9,7 @@ jobs:
        run: echo "shiva"
      - name: mutli command
        run: |
-         git -v
+         mkdir folder
+         cd folder
+         touch file1
          docker -v
